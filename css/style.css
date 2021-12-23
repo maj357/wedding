@@ -2308,6 +2308,9 @@ body {
     overflow-x: auto;
   }
 }
+.faq__box--modify {
+  overflow: visible;
+}
 @media (max-width: 61.99875em) {
   .faq__box--modify {
     overflow-x: hidden;
@@ -2459,7 +2462,7 @@ body {
 @media (max-width: 101.875em) {
   .faq__image::before {
     width: 100%;
-    bottom: 200px;
+    bottom: 202px;
   }
 }
 @media (max-width: 1340px) {
@@ -2480,16 +2483,16 @@ body {
     width: 100%;
   }
 }
-.faq__image img {
+.faq__image picture img {
   object-fit: contain;
 }
 @media (max-width: 101.875em) {
-  .faq__image img {
+  .faq__image picture img {
     width: 75%;
   }
 }
 @media (max-width: 1150px) {
-  .faq__image img {
+  .faq__image picture img {
     width: 18.75rem;
   }
 }
