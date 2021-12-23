@@ -2410,29 +2410,15 @@ body {
 }
 .faq__image {
   position: absolute;
-  top: 250px;
+  top: 15.625rem;
   left: 50%;
   transform: translate(-50%, 0%);
   max-width: 43.875rem;
 }
 @media (max-width: 101.875em) {
   .faq__image {
+    top: 25rem;
     left: 52%;
-  }
-}
-@media (max-width: 101.875em) and (min-width: 100em) {
-  .faq__image {
-    max-width: 43.875rem;
-  }
-}
-@media (max-width: 101.875em) and (min-width: 78.125em) and (max-width: 100em) {
-  .faq__image {
-    max-width: calc(28.125rem + 15.75 * (((100vw - 78.125rem)) / ((21.875))));
-  }
-}
-@media (max-width: 101.875em) and (max-width: 78.125em) {
-  .faq__image {
-    max-width: 28.125rem;
   }
 }
 @media (max-width: 1250px) {
@@ -2499,6 +2485,7 @@ body {
 }
 .faq__main-title {
   font-family: "CFParis", sans-serif;
+  font-size: 10.625rem;
   line-height: 1;
   letter-spacing: 0.015em;
   color: #d59d40;
@@ -2506,21 +2493,6 @@ body {
   text-align: center;
   top: -100px;
   z-index: 2;
-}
-@media (min-width: 100em) {
-  .faq__main-title {
-    font-size: 10.625rem;
-  }
-}
-@media (min-width: 48em) and (max-width: 100em) {
-  .faq__main-title {
-    font-size: calc(6.25rem + 4.375 * (((100vw - 48rem)) / ((52))));
-  }
-}
-@media (max-width: 48em) {
-  .faq__main-title {
-    font-size: 6.25rem;
-  }
 }
 @media (min-width: 100em) {
   .faq__main-title {
@@ -2588,26 +2560,12 @@ body {
   position: relative;
   text-align: center;
   color: #d59d40;
+  font-size: 1.75rem;
   line-height: 1.2142857143;
   letter-spacing: -0.015em;
   text-transform: uppercase;
   top: -80px;
   z-index: 2;
-}
-@media (min-width: 100em) {
-  .faq__main-subtitle {
-    font-size: 1.75rem;
-  }
-}
-@media (min-width: 62em) and (max-width: 100em) {
-  .faq__main-subtitle {
-    font-size: calc(1.5rem + 0.25 * (((100vw - 62rem)) / ((38))));
-  }
-}
-@media (max-width: 62em) {
-  .faq__main-subtitle {
-    font-size: 1.5rem;
-  }
 }
 @media (min-width: 100em) {
   .faq__main-subtitle {
