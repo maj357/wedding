@@ -2178,12 +2178,12 @@ body {
     left: 14.375rem;
   }
 }
-@media (min-width: 78.125em) and (max-width: 100em) {
+@media (min-width: 84.375em) and (max-width: 100em) {
   .faq__column:nth-child(2) .faq__text {
-    left: calc(0rem + 14.375 * (((100vw - 78.125rem)) / ((21.875))));
+    left: calc(0rem + 14.375 * (((100vw - 84.375rem)) / ((15.625))));
   }
 }
-@media (max-width: 78.125em) {
+@media (max-width: 84.375em) {
   .faq__column:nth-child(2) .faq__text {
     left: 0rem;
   }
@@ -2430,7 +2430,6 @@ body {
 }
 @media (max-width: 101.875em) {
   .faq__image {
-    top: 400px;
     left: 52%;
   }
 }
