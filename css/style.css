@@ -266,6 +266,7 @@ body {
   padding: 6px 80px;
   font-family: "Avenir", sans-serif;
   font-style: italic;
+  font-weight: 400;
   font-size: 2.1875rem;
   text-align: center;
   letter-spacing: -0.055em;
@@ -1771,7 +1772,6 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  border: 1px solid #d59d40;
   transition: all 0.5s ease 0s;
 }
 .slider-reviews__dotts .swiper-pagination-bullet-active {
@@ -1788,8 +1788,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 15px;
-  height: 15px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   border: 0.5px solid #d59d40;
 }
@@ -1891,6 +1891,12 @@ body {
     top: -20px;
     left: 50%;
     transform: translate(-50%, 0px);
+  }
+}
+@media (max-width: 29.99875em) {
+  .info-reviews__body {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 .info-reviews__body::before {
@@ -2040,14 +2046,8 @@ body {
 @media (max-width: 29.99875em) {
   .packages__block {
     background-color: transparent;
-    padding: 15px 0.125rem 50px;
+    padding: 0px 0.125rem 60px;
     max-width: 90%;
-  }
-}
-@media (max-width: 459px) {
-  .packages__block {
-    padding-top: 25px;
-    padding-bottom: 60px;
   }
 }
 @media (max-width: 365px) {
@@ -2215,7 +2215,7 @@ body {
 }
 @media (max-width: 1250px) {
   .faq__column:not(:last-child) {
-    margin-right: 0;
+    margin-right: 0 !important;
   }
 }
 .faq__column:nth-child(2) {
@@ -2388,9 +2388,12 @@ body {
     overflow-x: hidden;
   }
 }
+.faq__block:not(:last-child) {
+  margin: 0px 0rem 1.25rem 0px;
+}
 @media (max-width: 1250px) {
   .faq__block:not(:last-child) {
-    margin: 0px 1.5625rem 1.25rem 0px;
+    margin: 0px 1.25rem 0rem 0px;
   }
 }
 @media (max-width: 1250px) {
@@ -2466,29 +2469,15 @@ body {
 }
 .faq__image {
   position: absolute;
-  top: 15.625rem;
+  top: 150px;
   left: 50%;
   transform: translate(-50%, 0%);
   max-width: 43.875rem;
 }
 @media (max-width: 1630px) {
   .faq__image {
+    top: 330px;
     left: 52%;
-  }
-}
-@media (max-width: 1630px) and (min-width: 101.875em) {
-  .faq__image {
-    top: 25rem;
-  }
-}
-@media (max-width: 1630px) and (min-width: 78.125em) and (max-width: 101.875em) {
-  .faq__image {
-    top: calc(37.5rem + -12.5 * (((100vw - 78.125rem)) / ((23.75))));
-  }
-}
-@media (max-width: 1630px) and (max-width: 78.125em) {
-  .faq__image {
-    top: 37.5rem;
   }
 }
 @media (max-width: 1250px) {
@@ -2535,7 +2524,7 @@ body {
 }
 @media (max-width: 1250px) {
   .faq__image::before {
-    bottom: 172px;
+    bottom: 151px;
   }
 }
 @media (max-width: 1150px) {
