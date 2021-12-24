@@ -213,6 +213,10 @@ h6 {
 body {
   font-weight: 400;
 }
+.lock body {
+  overflow: hidden;
+  touch-action: none;
+}
 
 .wrapper {
   min-height: 100%;
@@ -1459,6 +1463,11 @@ body {
     z-index: -1;
   }
 }
+@media (max-width: 47.99875em) and (max-width: 29.99875em) {
+  .main-section__sub-list::after {
+    right: 75px;
+  }
+}
 @media (max-width: 47.99875em) and (max-width: 350px) {
   .main-section__sub-list::after {
     display: none !important;
@@ -1467,7 +1476,6 @@ body {
 @media (max-width: 500px) {
   .main-section__sub-list {
     left: 2.8125rem;
-    top: 3px;
   }
 }
 @media (max-width: 350px) {
