@@ -419,6 +419,7 @@ body {
 }
 .main-header__phone {
   transition: color 0.5s ease 0s;
+  z-index: 1;
 }
 @media (any-hover: hover) {
   .main-header__phone:hover {
@@ -427,6 +428,7 @@ body {
 }
 .main-header__mail {
   transition: color 0.5s ease 0s;
+  z-index: 1;
 }
 @media (any-hover: hover) {
   .main-header__mail:hover {
@@ -1128,6 +1130,7 @@ body {
 @media (max-width: 29.99875em) {
   .main-section__title {
     text-align: right;
+    margin-left: auto;
   }
 }
 .main-section__subtitle {
@@ -1195,6 +1198,12 @@ body {
     font-size: 0.875rem;
     text-align: center;
     margin-left: 3.125rem;
+  }
+}
+@media (max-width: 29.99875em) {
+  .main-section__subtitle {
+    text-align: right;
+    margin-left: auto;
   }
 }
 .main-section__text {
