@@ -1463,11 +1463,6 @@ body {
     z-index: -1;
   }
 }
-@media (max-width: 47.99875em) and (max-width: 29.99875em) {
-  .main-section__sub-list::after {
-    right: 75px;
-  }
-}
 @media (max-width: 47.99875em) and (max-width: 350px) {
   .main-section__sub-list::after {
     display: none !important;
