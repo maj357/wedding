@@ -2388,12 +2388,9 @@ body {
     overflow-x: hidden;
   }
 }
-.faq__block {
-  padding: 1.25rem;
-}
 @media (max-width: 1250px) {
   .faq__block:not(:last-child) {
-    margin: 0px 1.5625rem 0rem 0px;
+    margin: 0px 1.5625rem 1.25rem 0px;
   }
 }
 @media (max-width: 1250px) {
@@ -2524,7 +2521,7 @@ body {
   height: 5px;
   transform: rotate(-44deg) translate(-10px, 0);
 }
-@media (max-width: 101.875em) {
+@media (max-width: 1630px) {
   .faq__image::before {
     width: 100%;
     bottom: 202px;
