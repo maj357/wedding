@@ -3344,10 +3344,10 @@ body {
 }
 @media (max-width: 61.99875em) {
   .block-info:not(:last-child) {
-    margin-bottom: 70px;
+    margin-bottom: 60px;
   }
   .block-info::before {
-    width: 67.5%;
+    width: 50%;
     height: 94.6050096339%;
   }
 }
@@ -3496,7 +3496,7 @@ body {
 }
 @media (max-width: 47.99875em) {
   .quote__body {
-    max-width: 100%;
+    max-width: 100% !important;
   }
 }
 @media (max-width: 25em) {
