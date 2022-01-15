@@ -2529,7 +2529,7 @@ body {
 @media (max-width: 29.99875em) {
   .packages__block {
     background-color: transparent;
-    padding: 0px 0.125rem 60px;
+    padding: 0px 0.125rem 55px;
     max-width: 90%;
   }
 }
@@ -3372,12 +3372,12 @@ body {
 }
 @media (min-width: 20em) and (max-width: 101.875em) {
   .view-more {
-    margin-bottom: calc(2.5rem + 4.8125 * (((100vw - 20rem)) / ((81.875))));
+    margin-bottom: calc(3.125rem + 4.1875 * (((100vw - 20rem)) / ((81.875))));
   }
 }
 @media (max-width: 20em) {
   .view-more {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.125rem;
   }
 }
 .view-more__inner {
@@ -3836,10 +3836,22 @@ body {
   background: #f0f0f0;
   z-index: -1;
 }
-@media (max-width: 61.99875em) {
+@media (max-width: 61.99875em) and (min-width: 101.875em) {
   .block-info:not(:last-child) {
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
   }
+}
+@media (max-width: 61.99875em) and (min-width: 20em) and (max-width: 101.875em) {
+  .block-info:not(:last-child) {
+    margin-bottom: calc(1.875rem + 1.875 * (((100vw - 20rem)) / ((81.875))));
+  }
+}
+@media (max-width: 61.99875em) and (max-width: 20em) {
+  .block-info:not(:last-child) {
+    margin-bottom: 1.875rem;
+  }
+}
+@media (max-width: 61.99875em) {
   .block-info::before {
     width: 70%;
     height: 94.6050096339%;
@@ -3942,19 +3954,30 @@ body {
   }
 }
 .quote__inner {
-  max-height: 71.4375rem;
+  max-height: 47.0625rem;
   position: relative;
 }
+@media (min-width: 120.0625em) {
+  .quote__inner {
+    max-height: 65.1875rem;
+  }
+}
 .quote__image-ibg {
-  padding: 29.7395833333%;
+  padding: 24.53125%;
 }
 .quote__image-ibg img {
-  max-height: 71.4375rem;
+  max-height: 47.0625rem;
+}
+@media (min-width: 120.0625em) {
+  .quote__image-ibg img {
+    object-position: top;
+    max-height: 65.1875rem;
+  }
 }
 .quote__body {
   width: 100%;
   position: absolute;
-  bottom: 1.5625rem;
+  bottom: 1.25rem;
   left: 50%;
   transform: translate(-50%, 0px);
 }
@@ -4264,6 +4287,11 @@ body {
 @media (max-width: 20em) {
   .link-contact:not(:last-child) {
     margin-bottom: 0.625rem;
+  }
+}
+@media (max-width: 29.99875em) {
+  .link-contact:not(:last-child) {
+    margin-bottom: 0;
   }
 }
 .link-contact__link {
