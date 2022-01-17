@@ -515,6 +515,7 @@ textarea.input {
 }
 .select_contact-us__select .select__content {
   line-height: 1.380952381;
+  color: #000;
   letter-spacing: 0.015em;
 }
 @media (min-width: 101.875em) {
