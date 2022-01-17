@@ -515,7 +515,6 @@ textarea.input {
 }
 .select_contact-us__select .select__content {
   line-height: 1.380952381;
-  color: #000;
   letter-spacing: 0.015em;
 }
 @media (min-width: 101.875em) {
@@ -543,12 +542,12 @@ textarea.input {
 }
 @media (min-width: 20em) and (max-width: 101.875em) {
   .select_contact-us__select .select__options {
-    top: calc(3.125rem + 0.625 * (((100vw - 20rem)) / ((81.875))));
+    top: calc(2.8125rem + 0.9375 * (((100vw - 20rem)) / ((81.875))));
   }
 }
 @media (max-width: 20em) {
   .select_contact-us__select .select__options {
-    top: 3.125rem;
+    top: 2.8125rem;
   }
 }
 .select_contact-us__select .select__option {
@@ -5863,12 +5862,12 @@ textarea.input {
 }
 @media (min-width: 20em) and (max-width: 101.875em) {
   .contact-us {
-    padding-bottom: calc(3.125rem + 2.75 * (((100vw - 20rem)) / ((81.875))));
+    padding-bottom: calc(2.5rem + 3.375 * (((100vw - 20rem)) / ((81.875))));
   }
 }
 @media (max-width: 20em) {
   .contact-us {
-    padding-bottom: 3.125rem;
+    padding-bottom: 2.5rem;
   }
 }
 .contact-us__container {
@@ -6287,6 +6286,11 @@ textarea.input {
     text-align: center;
     max-width: 21.875rem;
     color: #000;
+  }
+}
+@media (max-width: 29.99875em) {
+  .contact-us__text {
+    padding-bottom: 1.25rem;
   }
 }
 @media (max-width: 1121px) {
