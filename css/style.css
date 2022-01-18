@@ -533,6 +533,11 @@ textarea.input {
     font-size: 1.125rem;
   }
 }
+.select_contact-us__select .select__content small {
+  font-size: 0;
+  opacity: 0;
+  visibility: hidden;
+}
 .select_contact-us__select .select__options {
   padding: 0;
 }
