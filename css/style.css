@@ -648,6 +648,11 @@ body.popup-show::after {
   max-width: 1200px;
   border-radius: 20px;
 }
+@media (max-width: 29.99875em) {
+  .popup__content {
+    max-height: 300px;
+  }
+}
 .lock .popup__content {
   visibility: visible;
 }
@@ -7787,6 +7792,16 @@ body.popup-show::after {
 .articles__image-ibg img {
   max-width: 45.8125rem;
   max-height: 43.625rem;
+}
+@media (max-width: 24.0625em) {
+  .articles__image-ibg img {
+    top: 13px;
+  }
+}
+@media (max-width: 21.25em) {
+  .articles__image-ibg img {
+    top: 0px;
+  }
 }
 .articles__social {
   flex: 0 0 23.4375rem;
